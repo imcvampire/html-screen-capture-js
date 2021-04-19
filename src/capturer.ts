@@ -330,7 +330,7 @@ export const goCapture: CaptureFunction = (outputType?, htmlDocument?, options?)
         classCount: 0,
         pseudoStyles: [],
         pseudoClassCount: 0,
-        shouldHandleImgDataUrl: true,
+        shouldHandleImgDataUrl: false,
         canvas: null,
         doc: htmlDocument || document,
         options: {
